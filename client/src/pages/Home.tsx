@@ -130,20 +130,19 @@ export default function Home() {
       <main>
         {/* Aerospace Background Container */}
         <section id="home" className="hero-section">
-<div className="absolute inset-0 overflow-hidden pointer-events-none -z-10">
-  <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-[#002b5e] via-[#001A33] to-[#040814]"></div>
-  <div className="absolute inset-0 opacity-[0.07]" style={{ backgroundImage: 'linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(90deg, #ffffff 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
-  <div className="absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/3 w-[900px] h-[900px] rounded-full border-[1.5px] border-white/20 border-dashed animate-[spin_60s_linear_infinite]"></div>
-  <div className="absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/4 w-[600px] h-[600px] rounded-full border border-[#D4AF37]/30 shadow-[0_0_80px_rgba(212,175,55,0.1)]"></div>
-  <div className="absolute top-[20%] right-[15%] w-3 h-3 bg-[#D4AF37] rounded-full shadow-[0_0_15px_#D4AF37] animate-pulse">
-    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 border border-[#D4AF37]/50 rounded-full animate-ping"></div>
+  {/* Restored Original Grid Background (with custom Aerospace Gold inline styles) */}
+  <div className="hero-animation">
+    <div className="hero-animation__circle hero-animation__circle--one" aria-hidden="true" style={{ borderColor: 'rgba(212,175,55,0.5)', borderStyle: 'dashed' }}></div>
+    <div className="hero-animation__circle hero-animation__circle--two" aria-hidden="true" style={{ borderColor: 'rgba(255,255,255,0.05)' }}></div>
   </div>
-</div>
-            <div className="hero-copy">
-              <p className="eyebrow"><span className="eyebrow-dot" /> HUMAN PHYSIOLOGY / SPACE LIFE SCIENCES</p>
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight text-white whitespace-nowrap">
-  Samuel <br /> Oladele
-</h1>
+
+  {/* Restored Layout Container */}
+  <div className="hero-copy">
+    <p className="eyebrow"><span className="eyebrow-dot" /> HUMAN PHYSIOLOGY / SPACE LIFE SCIENCES</p>
+    
+    <h1 className="hero-title">
+      Samuel <br /> Oladele
+    </h1>
               <p className="hero-role">Human Physiologist <span>&amp;</span><br /> Aerospace Medicine Researcher</p>
               <p className="hero-statement">Investigating extreme environmental stressors, cognitive fatigue, and human performance for the future of global spaceflight.</p>
               <div className="hero-actions">
