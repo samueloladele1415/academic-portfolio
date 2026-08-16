@@ -156,7 +156,6 @@ export default function Home() {
               <div className="hero-figure__caption"><span>FIG. 01</span><span>HUMAN / ENVIRONMENT / PERFORMANCE</span></div>
               <div className="hero-telemetry"><span className="telemetry-dot" /> SIGNAL: EXPLORING <span>///</span> 06.2024</div>
             </div>
-          </div>
           <a className="scroll-cue" href="#about"><span>SCROLL TO EXPLORE</span><ChevronDown size={16} /></a>
         </section>
 
